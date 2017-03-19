@@ -1,0 +1,241 @@
+/* Global CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header CSS */
+
+header {
+  height: 100px;
+  background-color: #FF7B51;
+}
+
+header h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Navigation CSS */
+
+nav {
+  height: 70px;
+  background-color: #A0A0A0;
+  border-bottom: 3px solid #FF7B51;
+}
+
+nav ul {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 75px 0px 75px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a,visited {
+  height: 70px;
+}
+
+nav ul li:hover {
+  background-color: #6C6C6C;
+
+}
+
+nav ul li:hover ul {
+  display:inline-block;
+  width: 350px;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+/* Agenda CSS */
+
+#agenda {
+  height: 245px;
+  background-color: #A0A0A0;
+  border-bottom: 3px solid #FF7B51;
+}
+
+#agenda_box {
+  border: 2px solid black;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#agenda h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 25px;
+  margin-top: 7px;
+  padding: 5px;
+}
+
+#agenda p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/* Topic Boxes CSS */
+
+#topic_box {
+  background-color: #A0A0A0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #FF7B51;
+}
+
+.boxes {
+  width: 19.9%;
+  height: 260px;
+  background-color: #6C6C6C;
+  border: 2px solid black;
+  margin: 10px 2px 10px 2px;
+  border-radius: 5px;
+}
+
+.boxes h1 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.boxes p {
+  font-family: 'PT Sans', sans-serif;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+/* Topic and Examples CSS */
+
+#topic_info {
+  background-color: #A0A0A0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #FF7B51;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#topic_container {
+  width: 40%;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  height: 600px;
+}
+
+#topic_container h1 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+#topic_container p {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+ #example_container {
+   width: 40%;
+   height: 600px;
+   border-right: 2px solid black;
+ }
+
+ #example_container h1 {
+   text-decoration: underline;
+   font-family: 'PT Sans', sans-serif;
+   text-align: center;
+   font-size: 25px;
+   padding-bottom: 5px;
+ }
+
+ #example_container p {
+   font-family: 'PT Sans', sans-serif;
+   text-align: center;
+   margin-top: 5px;
+ }
+
+#example_container ul {
+
+}
+
+#example_container li {
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 5px;
+}
+
+/* Homework and Due Date CSS */
+
+#homework {
+  display: flex;
+  justify-content: center;
+  background-color: #A0A0A0;
+}
+
+#homework_info {
+  border: 2px solid black;
+  width: 59.9%;
+  height: 150px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#homework_info h1{
+  font-family: 'PT Sans', sans-serif;
+  padding: 5px;
+  font-size: 25px;
+}
+
+#homework_info p {
+  font-family: 'PT Sans', sans-serif;
+  padding: 5px;
+}
+
+#homework_due {
+  border: 2px solid black;
+  width: 19.9%;
+  height: 150px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#homework_due h1{
+  font-family: 'PT Sans', sans-serif;
+  padding: 5px;
+  font-size: 25px;
+}
+
+#homework_due p {
+  font-family: 'PT Sans', sans-serif;
+  padding: 5px 10px 5px 5px;
+  font-size: 25px;
+  position: relative;
+  top: 70px;
+  float: right;
+}
